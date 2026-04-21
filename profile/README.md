@@ -12,4 +12,5 @@ A cultural-tech practice uniting artistic authorship, technical leadership and p
 ## Links
 
 - Web: [oje.studio](https://oje.studio)
+- Email: [hello@oje.studio](mailto:hello@oje.studio)
 - GitHub: [@oje-studio](https://github.com/oje-studio)
