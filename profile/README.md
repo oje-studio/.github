@@ -1,14 +1,15 @@
-# oje-studio
+# ØJE
 
-Independent software studio based in Vienna.
+Independent multimedia studio based in Vienna, operating internationally.
 
-We build focused tools and release a small number of them as open source.
+A cultural-tech practice uniting artistic authorship, technical leadership and production accountability — working between contemporary art, festival culture and spatial production, where artistic intent and technical precision carry equal weight.
 
 ## Projects
 
-- **[oje-cue-monitor](https://github.com/oje-studio/oje-cue-monitor)** — current public release.
+- **[oje-cue-monitor](https://github.com/oje-studio/oje-cue-monitor)**
 - _More coming soon._
 
 ## Links
 
+- Web: [oje.studio](https://oje.studio)
 - GitHub: [@oje-studio](https://github.com/oje-studio)
