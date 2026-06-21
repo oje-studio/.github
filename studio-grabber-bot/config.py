@@ -22,8 +22,9 @@ class Settings:
     )
     # Делать ли ссылку доступной "всем, у кого есть ссылка"
     make_public: bool = os.getenv("MAKE_PUBLIC", "true").lower() == "true"
-    # Складывать ли файлы в подпапку по дате (ГГГГ-ММ-ДД)
-    date_subfolders: bool = os.getenv("DATE_SUBFOLDERS", "true").lower() == "true"
+    # Складывать ли файлы в подпапку по дате (ГГГГ-ММ-ДД).
+    # По умолчанию выключено: всё в одну папку-копилку референсов.
+    date_subfolders: bool = os.getenv("DATE_SUBFOLDERS", "false").lower() == "true"
 
     # Временная папка для скачивания (чистится после отправки)
     download_dir: Path = Path(os.getenv("DOWNLOAD_DIR", "/tmp/studio-grabber"))
