@@ -1,0 +1,13 @@
+services:
+  bot:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      # ключ сервисного аккаунта Google
+      - ./service_account.json:/app/service_account.json:ro
+      # временное хранилище скачанного
+      - grabber-tmp:/tmp/studio-grabber
+
+volumes:
+  grabber-tmp:
